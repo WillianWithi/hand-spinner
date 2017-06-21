@@ -1,0 +1,11 @@
+.image {
+    overflow: hidden;
+    transition-duration: 0.2s;
+    transition-property: transform;
+    -webkit-animation:spin 4s linear infinite;
+}
+.image:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+
+}
